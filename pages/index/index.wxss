@@ -1,4 +1,8 @@
 /**index.wxss**/
+button::after {
+  border: none;
+}
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -18,4 +22,12 @@
 
 .usermotto {
   margin-top: 200px;
+}
+
+.register {
+  color: #1c7980;
+  font-size: 20rpx;
+  background: white;
+  position: absolute;
+  bottom: 20rpx;
 }
