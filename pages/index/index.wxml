@@ -9,6 +9,8 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{userInfo.nickName}}{{motto}}</text>
+    <button bindtap="conn_bt">连接蓝牙</button>
   </view>
-  <button class="register" bindtap="register">注册新用户</button>
+  <button class="register" bindtap="register">注册新用户
+  </button>
 </view>

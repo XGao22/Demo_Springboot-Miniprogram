@@ -1,0 +1,25 @@
+.section {
+  display: block;
+  width: 600rpx;
+  height: 600rpx;
+  font-size: 18px;
+}
+
+.btn-area {
+  display: block;
+  margin: 0 auto;
+  width: 500rpx;
+}
+
+button {
+  width: 200rpx;
+  float: left;
+  margin-left: 25rpx;
+}
+
+input {
+  margin: 10rpx auto 40rpx;
+  border: 1px solid gray;
+  border-radius: 5%;
+  height: 50rpx;
+}
